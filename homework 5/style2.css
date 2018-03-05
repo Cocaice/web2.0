@@ -1,0 +1,80 @@
+* {
+
+}
+body {
+	background: url(src/background2.gif);
+}
+#gamecontainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+h1, h2 {
+	text-align: center;
+}
+h2 {
+	font-size: 20px;
+}
+#Gamescreen {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 60px;
+}
+.firstline {
+	margin-bottom: 8px;
+}
+#start {
+	width: 168px;
+	height: 22.4px;
+	border:2px solid grey;
+	border-radius: 10px;
+	float: left;
+}
+#process {
+	text-align: center;
+	width: 168px;
+	height: 22.4px;
+	border:2px solid grey;
+	border-radius: 10px;
+	float: left;
+}
+#timeshow, #scoreshow {
+	float: right;
+	width: 168px;
+	height: 22.4px;
+}
+#time, #score {
+	float: right;
+	height: 22px;
+	width: 80px;
+	border:2px solid grey;
+	border-radius: 10px;
+	text-align: center;
+}
+#Whac-container {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+	height: 370px;
+	border-style: solid none solid none;
+	border-color: grey;
+}
+.hole {
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border-color: black;
+}
+.hithole {
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border-color: black;
+	background: url(src/yellow.png);
+	background-size: 95% 95%;
+}

@@ -1,0 +1,61 @@
+body {
+	background:url("src/background.jpg");
+	background-size: 100%;
+}
+#container {
+	margin-left: 850px;
+	margin-top: 100px;
+	width: 410px;
+	height: 530px; 
+	box-shadow: 1px -1px 1px #40585A inset, 1px 1px 1px 1px #40585A;
+	border-radius: 5px;
+	background-color: #40585A;
+	opacity: 0.8;
+}
+#registercontainer {
+	text-align: center;
+}
+#control-container {
+	text-align: center;
+}
+#tip {
+	color: red;
+	text-align: center;
+	font-size: 20px;
+}
+button {
+	color: white;
+	width: 100px;
+	height: 30px;
+	margin: 20px;
+	background-color: #58A2AA;
+	border-radius: 5px;
+}
+h1 {
+	font-size: 35pt;
+	color: white;
+	text-align: center;
+}
+span {
+	margin-left: 5px;
+	float:left;
+	font-size: 20px;
+	color: white;
+}
+input {
+	width: 400px;
+	height: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0.8px 0.8px 0.8px 0.8px #929292;
+	border-radius: 5px;
+}
+p {
+	color: red;
+	float: right;
+	margin-top: 5px;
+	font-size: 11px;
+}
+.danger {
+	box-shadow: inset 0 0 15px 3px lightcoral;
+}

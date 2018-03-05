@@ -1,0 +1,152 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	
+}
+body {
+	background: url(src/background.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#Gamecontainer {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 900px;
+}
+h1, h2{
+	text-align: center;
+}
+#show {
+	text-align: center;
+	font-size: 23px;
+	transition: all 0.5s ease;
+	transition-delay: 1s;
+}
+#gamescreen {
+	height: 50px;
+	width: 100%;
+}
+#mazegame {
+	position: relative;
+}
+.wall {
+	background-color: grey;
+	border-color: black;
+}
+#wall1 {
+	margin-left: 145.5px;
+	height: 50px;
+	width: 600px;
+	border-style: solid solid none solid;
+}
+#wall2 {
+	height: 149px;
+	width: 150px;
+	margin-left: 145.5px;
+	border-style: none solid solid solid;
+
+}
+#wall3 {
+	position: absolute;
+	left: 595.5px;
+	top: 52.5px;
+	height: 149px;
+	width: 150px;
+	border-style: none solid solid solid;
+}
+#wall4 {
+	position: absolute;
+	height: 153px;
+	width: 152px;
+	top: 103px;
+	left: 370px;
+	border-style: solid solid none solid;
+}
+#wall5 {
+	position: absolute;
+	top: 257px;
+	left: 146px;
+	height: 50px;
+	width: 600px;
+	border-style: none solid solid solid;
+}
+.chan {
+	text-align: center;
+	border-color: black;
+	font-size: 25px;
+	cursor:pointer;
+}
+#channel3 {
+	position: absolute;
+	top: 52.3px;
+	left: 300.5px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: 295px;
+	border-style: solid none none none;
+}
+#channel2 {
+	position: absolute;
+	height: 101px;
+	width: 70px;
+	top: 103px;
+	left: 300px;
+	border: none;
+}
+#channel4 {
+	position: absolute;
+	height: 100px;
+	width: 70px;
+	top: 103px;
+	right: 302px;
+	border: none;
+}
+#channel1 {
+	position: absolute;
+	left: 146px;
+	height: 50px;
+	width: 225px;
+	border-style: none none solid none;
+}
+#channel5 {
+	position: absolute;
+	right: 149px;
+	top: 205px;
+	height: 50px;
+	width: 225px;
+	border-style: none none solid none;
+}
+#start {
+	position: absolute;
+	top: 3px;
+	height: 40px;
+	width: 40px;
+	border: solid black;
+	background-color: #489085;
+}
+#end {
+	position: absolute;
+	right: 0px;
+	top: 3px;
+	height: 40px;
+	width: 40px;
+	border: solid black;
+	background-color: #C39264;
+}
+#tips {
+	position: relative;
+	top: 150px;
+	font-size: 23px;
+}
+#example {
+	border: solid black;
+	height: 30px;
+	width: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: grey;
+}

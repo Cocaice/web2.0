@@ -1,0 +1,29 @@
+body {
+	background:url("src/background.jpg");
+	background-size: 100%;
+}
+#main {
+	margin-left: 850px;
+	margin-top: 100px;
+	width: 410px;
+	height: 400px; 
+	box-shadow: 1px -1px 1px #40585A inset, 1px 1px 1px 1px #40585A;
+	border-radius: 5px;
+	background-color: #40585A;
+	opacity: 0.8;
+	padding: 10px;
+}
+h1 {
+	font-size: 35pt;
+	color: white;
+	text-align: center;
+}
+#container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+	text-align: left;
+	font-size: 22px;
+	color: white;
+}
+

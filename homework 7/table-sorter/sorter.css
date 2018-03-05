@@ -1,0 +1,30 @@
+
+body {
+	font-family: 'Bell MT', serif;
+}
+table, td, th {
+	border: 1px solid  grey;
+}
+table {
+  border-collapse:collapse;
+}
+thead {
+	text-align: left;
+	background-color: #031A80;
+	font-family: Arial, serif;
+	color: #fff;
+	font-size: 15px;
+	padding: 2px;
+}
+.alternate {
+	background-color: #DDDDDD;
+}
+th, td {
+	padding: 2px;
+}
+.clickme {
+	background-color: #A6AFFC;
+}
+img {
+	float: right;
+}
